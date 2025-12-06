@@ -1,14 +1,16 @@
-# Nerfies
+# TalkingHeadBench
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [TalkingHeadBench website](https://anaxqx.github.io/talkingheadbench.github.io/).
 
-If you find Nerfies useful for your work please cite:
+This website template was adapted from the source code for [Nerfies](https://nerfies.github.io/), licensed under the same.
+
+If you find TalkingHeadBench useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{xiong2025talkingheadbench,
+  title={TalkingHeadBench: A Multi-Modal Benchmark \& Analysis of Talking-Head DeepFake Detection},
+  author={Xiong, Xinqi and Patel, Prakrut and Fan, Qingyuan and Wadhwa, Amisha and Selvam, Sarathy and Guo, Xiao and Qi, Luchao and Liu, Xiaoming and Sengupta, Roni},
+  journal={arXiv preprint arXiv:2505.24866},
+  year={2025}
 }
 ```
 
