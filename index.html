@@ -3,12 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="TalkingHeadBench: A Multi-Modal Benchmark & Analysis of Talking-Head DeepFake Detection">
+  <meta name="keywords" content="DeepFake, Talking-Head, Benchmark, Detection">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
+  <title>TalkingHeadBench</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -42,44 +41,6 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
 </nav>
 
 
@@ -88,40 +49,44 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
-          <div class="is-size-5 publication-authors">
+          <h1 class="title is-1 publication-title">TalkingHeadBench: A Multi-Modal Benchmark & Analysis of Talking-Head DeepFake Detection</h1>
+          
+            <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              <a href="https://www.linkedin.com/in/ana-xiong/">Xinqi Xiong</a><sup>*1†</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
+              <a href="https://www.linkedin.com/in/prakrut-patel?trk=public_profile_browsemap">Prakrut Patel</a><sup>*1</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
-            </span>
+              <a href="#">Qingyuan Fan</a><sup>*1</sup>,</span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
-            </span>
+              <a href="https://www.linkedin.com/in/amisha-wadhwa-7850751ba/">Amisha Wadhwa</a><sup>*1</sup>,</span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
-            </span>
+              <a href="linkedin.com/in/sarathyselvam">Sarathy Selvam</a><sup>*1</sup>,</span>
             <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
+              <a href="https://chelsea234.github.io/website/">Xiao Guo</a><sup>2</sup>,</span>
             <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+              <a href="https://luchaoqi.com/">Luchao Qi</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.cse.msu.edu/~liuxm/index2.html">Xiaoming Liu</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.cs.unc.edu/~ronisen/">Roni Sengupta</a><sup>1†</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>University of North Carolina at Chapel Hill,</span>
+            <span class="author-block"><sup>2</sup>Michigan State University</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>*</sup>Equal contribution,</span>
+            <span class="author-block"><sup>†</sup>Correspondence</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/pdf/2505.24866" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
@@ -129,40 +94,33 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/abs/2505.24866" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
+              <!-- <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
                   </span>
                   <span>Video</span>
                 </a>
-              </span>
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="https://github.com/google/nerfies"
-                   class="external-link button is-normal is-rounded is-dark">
+              </span> -->
+              <!-- <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
                   <span>Code</span>
                   </a>
-              </span>
-              <!-- Dataset Link. -->
+              </span> -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
+                <a href="https://huggingface.co/datasets/luchaoqi/TalkingHeadBench" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="far fa-images"></i>
+                      <p style="font-size:18px">🤗</p>
                   </span>
                   <span>Data</span>
                   </a>
@@ -178,15 +136,215 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <img src="./static/images/pipeline.png"
+               class="interpolation-image"
+               alt="TalkingHeadBench Pipeline"
+               style="width: 100%; height: auto;"/>
+        </div>
+      </div>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        A new benchmark for talking-head deepfake detection.
       </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The rapid advancement of talking-head deepfake generation fueled by advanced generative models has elevated the realism of synthetic videos to a level that poses substantial risks in domains such as media, politics, and finance. However, current benchmarks for deepfake talking-head detection fail to reflect this progress, relying on outdated generators and offering limited insight into model robustness and generalization.
+          </p>
+          <p>
+            We introduce TalkingHeadBench, a new benchmark designed to address this gap, featuring talking-head videos from six modern generators, with an additional two emerging generators used exclusively for testing generalization. The dataset is built on an expert-led curation process that filters over 60% of samples to remove videos with noticeable artifacts, presenting a more difficult challenge for detectors. Our evaluation protocols are designed to measure generalization across identity and generator shifts. Benchmarking seven state-of-the-art detectors reveals that models with high accuracy on older datasets like FaceForensics++ show a significant performance drop on our curated data, particularly at strict false positive rates (e.g., TPR@FPR=0.1%). In addition, we identify a trend where detectors focus on background cues instead of facial features using Grad-CAM visualization.
+          </p>
+          <p>
+            The dataset is hosted on <a href="https://huggingface.co/datasets/luchaoqi/TalkingHeadBench">Hugging Face</a> with all data splits and protocols. Our benchmark aims to accelerate research towards more robust and generalizable detection models in the face of rapidly evolving generative techniques.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+
+      <h2 class="title is-3 has-text-centered">Dataset Samples</h2>
+      <p class="has-text-centered" style="margin-bottom: 20px;">
+        Select a generator to view example videos.<br>
+      </p>
+
+      <!-- Generator Buttons -->
+      <div class="buttons is-centered" id="generator-buttons">
+        <button class="button is-small is-link is-light gen-btn" data-target="real">Real</button>
+        <button class="button is-small is-link is-light gen-btn" data-target="hallo">Hallo</button>
+        <button class="button is-small is-link is-light gen-btn" data-target="hallo2">Hallo2</button>
+        <button class="button is-small is-link is-light gen-btn" data-target="hallo3">Hallo3</button>
+        <button class="button is-small is-link is-light gen-btn" data-target="ap-audio">AniPortrait (Audio)</button>
+        <button class="button is-small is-link is-light gen-btn" data-target="ap-video">AniPortrait (Video)</button>
+        <button class="button is-small is-link is-light gen-btn" data-target="live">LivePortrait</button>
+        <button class="button is-small is-link is-light gen-btn" data-target="emo">EmoPortraits</button>
+
+      </div>
+
+      <!-- Video Groups -->
+      <div id="video-groups">
+
+        <!-- Real -->
+        <div class="video-set" id="real">
+          <div class="columns is-multiline is-centered">
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/Real/SAK2kObsiMY_5_Real.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>Real</b> Sample 1</p>
+            </div>
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/Real/spzZdVYB5X0_6_Real.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>Real</b> Sample 2</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hallo -->
+        <div class="video-set" id="hallo">
+          <div class="columns is-multiline is-centered">
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/Hallo/10290---d6eC8jwgHM0_16_Hallo.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>Hallo</b> Sample 1</p>
+            </div>
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/Hallo/38197---1uIBRC3xMEM_51_Hallo.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>Hallo</b> Sample 2</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hallo2 -->
+        <div class="video-set" id="hallo2">
+          <div class="columns is-multiline is-centered">
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/Hallo2/30087---4YFz0PJernc_5_Hallo2.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>Hallo2</b> Sample 1</p>
+            </div>
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/Hallo2/23565---NCKkEP5Ol4s_14_Hallo2.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>Hallo2</b> Sample 2</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hallo3 -->
+        <div class="video-set" id="hallo3">
+          <div class="columns is-multiline is-centered">
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/hallo3/09592-HraqSpgcdgM_3.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>Hallo3</b> Sample 1</p>
+            </div>
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/hallo3/27576-SWlYiOtP5mI_2.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>Hallo3</b> Sample 2</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- EmoPortraits -->
+        <div class="video-set" id="emo">
+          <div class="columns is-multiline is-centered">
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/EmoPortraits/22776_t_9GTwEOdkY_6_EmoPortraits.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>EmoPortraits</b> Sample 1</p>
+            </div>
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/EmoPortraits/57511_u5Ks53-THVE_1_EmoPortraits.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>EmoPortraits</b> Sample 2</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- AniPortrait Audio -->
+        <div class="video-set" id="ap-audio">
+          <div class="columns is-multiline is-centered">
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/AniPortraitAudio/58781_D1rRS3omXQE_13_512x512_3_APAudio.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>AniPortrait Audio</b> 1</p>
+            </div>
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/AniPortraitAudio/17487_SAK2kObsiMY_5_512x512_3_APAudio.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>AniPortrait Audio</b> 2</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- AniPortrait Video -->
+        <div class="video-set" id="ap-video">
+          <div class="columns is-multiline is-centered">
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/AniPortraitVideo/34225_L0X71LctFvo_8_512x512_3_APVideo.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>AniPortrait Video</b> 1</p>
+            </div>
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/AniPortraitVideo/48372_CHzH8VHe1PI_2_512x512_3_APVideo.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>AniPortrait Video</b> 2</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- LivePortrait -->
+        <div class="video-set" id="live">
+          <div class="columns is-multiline is-centered">
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/LivePortriat/36672--qs7FL5DVDMA_16_LivePortrait.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>LivePortrait</b> 1</p>
+            </div>
+            <div class="column is-4">
+              <video controls muted loop playsinline width="100%">
+                <source src="./static/videos/LivePortriat/48565--spzZdVYB5X0_6_LivePortrait.mp4">
+              </video>
+              <p class="has-text-centered is-size-6"><b>LivePortrait</b> 2</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </div>
 </section>
@@ -195,247 +353,250 @@
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
+      <h2 class="title is-3 has-text-centered">Dataset Samples</h2>
+      <p class="has-text-centered" style="margin-bottom: 20px;">
+        Comparison of <b>Real</b> videos and generated samples from 7 different models.
+        <br><i>(Swipe or drag to see more)</i>
+      </p>
+      
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
+        
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Real/SAK2kObsiMY_5_Real.mp4" type="video/mp4">
           </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>Real Video</b> (Sample 1)</h4>
         </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Real/spzZdVYB5X0_6_Real.mp4" type="video/mp4">
           </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>Real Video</b> (Sample 2)</h4>
         </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
+
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Hallo/10290---d6eC8jwgHM0_16_Hallo.mp4" type="video/mp4">
           </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>Hallo</b> (Sample 1)</h4>
         </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Hallo/38197---1uIBRC3xMEM_51_Hallo.mp4" type="video/mp4">
           </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>Hallo</b> (Sample 2)</h4>
         </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
+
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Hallo2/30087---4YFz0PJernc_5_Hallo2.mp4" type="video/mp4">
           </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>Hallo2</b> (Sample 1)</h4>
         </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/Hallo2/23565---NCKkEP5Ol4s_14_Hallo2.mp4" type="video/mp4">
           </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>Hallo2</b> (Sample 2)</h4>
         </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
+
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/hallo3/09592-HraqSpgcdgM_3.mp4" type="video/mp4">
           </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>Hallo3</b> (Sample 1)</h4>
         </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/hallo3/27576-SWlYiOtP5mI_2.mp4" type="video/mp4">
           </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>Hallo3</b> (Sample 2)</h4>
         </div>
+
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/EmoPortraits/22776_t_9GTwEOdkY_6_EmoPortraits.mp4" type="video/mp4">
+          </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>EmoPortraits</b> (Sample 1)</h4>
+        </div>
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/EmoPortraits/57511_u5Ks53-THVE_1_EmoPortraits.mp4" type="video/mp4">
+          </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>EmoPortraits</b> (Sample 2)</h4>
+        </div>
+
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/AniPortraitAudio/58781_D1rRS3omXQE_13_512x512_3_APAudio.mp4" type="video/mp4">
+          </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>AniPortrait (Audio)</b> 1</h4>
+        </div>
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/AniPortraitAudio/17487_SAK2kObsiMY_5_512x512_3_APAudio.mp4" type="video/mp4">
+          </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>AniPortrait (Audio)</b> 2</h4>
+        </div>
+
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/AniPortraitVideo/34225_L0X71LctFvo_8_512x512_3_APVideo.mp4" type="video/mp4">
+          </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>AniPortrait (Video)</b> 1</h4>
+        </div>
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/AniPortraitVideo/48372_CHzH8VHe1PI_2_512x512_3_APVideo.mp4" type="video/mp4">
+          </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>AniPortrait (Video)</b> 2</h4>
+        </div>
+
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/LivePortriat/36672--qs7FL5DVDMA_16_LivePortrait.mp4" type="video/mp4">
+          </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>LivePortrait</b> (Sample 1)</h4>
+        </div>
+        <div class="item item-video">
+          <video poster="" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/LivePortriat/48565--spzZdVYB5X0_6_LivePortrait.mp4" type="video/mp4">
+          </video>
+          <h4 class="has-text-centered is-size-6" style="margin-top: 10px;"><b>LivePortrait</b> (Sample 2)</h4>
+        </div>
+
       </div>
     </div>
   </div>
 </section>
 
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <!--/ Paper video. -->
-  </div>
-</section>
-
-
 <section class="section">
   <div class="container is-max-desktop">
 
-    <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Matting. -->
-
-    <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+        <h2 class="title is-3 has-text-centered">Benchmark Overview & Results</h2>
         <div class="content has-text-justified">
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            To strictly evaluate the generalization of SOTA detectors, we design three specific protocols and utilize strict metrics following standard face recognition benchmarks.
           </p>
         </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
+
+        <div class="columns">
+          <div class="column is-6">
+            <h3 class="title is-4">Evaluation Protocols</h3>
+            <div class="content has-text-justified">
+              <ul>
+                <li>
+                  <b>Protocol 1: Identity Shift (P1)</b><br>
+                  Evaluates generalization to <b>unseen identities</b> within the same generator.
+                </li>
+                <li>
+                  <b>Protocol 2: Generator Shift (P2)</b><br>
+                  Evaluates generalization to an <b>unseen generator</b>.
+                </li>
+                <li>
+                  <b>Protocol 3: ID & Generator Shift (P3)</b><br>
+                  Evaluates generalization to both <b>unseen generators and identities</b> (the most challenging "in-the-wild" setting).
+                </li>
+              </ul>
             </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
           </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/>
-        <!--/ Interpolating. -->
 
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
+          <div class="column is-6">
+            <h3 class="title is-4">Metrics</h3>
+            <div class="content has-text-justified">
+              <!-- <p>
+                We report standard metrics (AUC, Brier) and strict True Positive Rates (TPR) to measure real-world reliability.
+              </p> -->
+              
+              <div class="content is-size-6" style="margin-bottom: 20px;">
+                <ul>
+                  <li>
+                    <b>AUC (Area Under Curve) &uarr;</b> : 
+                    Measures overall separation between real and fake.
+                  </li>
+                  <li>
+                    <b>Brier Score</b> &darr;: 
+                    Measures the accuracy of the predicted probabilities (calibration). A lower score means the model is more confident and accurate.
+                  </li>
+                  <li>
+                    <b>TPR @ FPR (T1, T0.1) &uarr;</b>: 
+                    The key metric for deployment. <b>T0.1</b> (TPR at 0.1% False Positive Rate) measures how many deepfakes are caught when the system is allowed only <b>1 false alarm per 1000 real videos</b>.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
+
+
+        <h3 class="title is-4 has-text-centered" style="margin-top: 20px;">Main Results</h3>
+
+        <!-- <h3 class="title is-5 has-text-centered" style="margin: 10px 0 5px 0;">
+          Performance Legend
+        </h3>
+
+        <div class="columns is-multiline is-mobile has-text-centered" 
+            style="margin-top: 0; margin-bottom: 10px;">
+          <div class="column is-2-desktop is-6-mobile">
+            <span class="tag" style="background-color: #6aa84f; color: white; width: 100%;">Excellent</span>
+            <p class="is-size-7" style="margin-top: 2px;">&gt; 0.99</p>
+          </div>
+
+          <div class="column is-2-desktop is-6-mobile">
+            <span class="tag" style="background-color: #b6d7a8; color: black; width: 100%;">Good</span>
+            <p class="is-size-7" style="margin-top: 2px;">0.95 – 0.99</p>
+          </div>
+
+          <div class="column is-2-desktop is-6-mobile">
+            <span class="tag" style="background-color: #ffe599; color: black; width: 100%;">Reasonable</span>
+            <p class="is-size-7" style="margin-top: 2px;">0.85 – 0.95</p>
+          </div>
+
+          <div class="column is-2-desktop is-6-mobile">
+            <span class="tag" style="background-color: #ea9999; color: black; width: 100%;">Fair</span>
+            <p class="is-size-7" style="margin-top: 2px;">0.75 – 0.85</p>
+          </div>
+
+          <div class="column is-2-desktop is-6-mobile">
+            <span class="tag" style="background-color: #e06666; color: white; width: 100%;">Poor</span>
+            <p class="is-size-7" style="margin-top: 2px;">&lt; 0.75</p>
+          </div>
         </div>
-        <!--/ Re-rendering. -->
+
+        <figure class="image is-centered" style="margin-bottom: 30px;">
+          <img src="./static/images/results.png" alt="Benchmark Results" style="border: 1px solid #ddd; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+          <figcaption class="has-text-centered is-size-6" style="margin-top: 10px;">
+            <b>Table 1.</b> Benchmark results across three protocols. Performance drops significantly when detectors face unseen generators (Protocol 2 & 3).
+          </figcaption>
+        </figure> -->
+
+        <figure class="image is-centered" style="margin-bottom: 30px;">
+        <img src="./static/images/results.png" alt="Benchmark Results" 
+            style="border: 1px solid #ddd; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+
+        <figcaption class="has-text-centered is-size-6" style="margin-top: 10px; line-height: 1.7;">
+          <b>Table 1.</b> Benchmark results across three protocols. Performance drops significantly when detectors face unseen generators (Protocol 2 & 3). 
+          Performance level:
+          Excellent: 
+            <span style="background:#6aa84f; color:white; padding:2px 6px; border-radius:4px; font-size:0.75rem;">&ge;0.99</span>,
+          Good: 
+            <span style="background:#b6d7a8; color:black; padding:2px 6px; border-radius:4px; font-size:0.75rem;">0.95–0.99</span>,
+          Reasonable:
+            <span style="background:#ffe599; color:black; padding:2px 6px; border-radius:4px; font-size:0.75rem;">0.85–0.95</span>,
+          Fair:
+            <span style="background:#ea9999; color:black; padding:2px 6px; border-radius:4px; font-size:0.75rem;">0.75–0.85</span>, 
+          and Poor:
+            <span style="background:#e06666; color:white; padding:2px 6px; border-radius:4px; font-size:0.75rem;">&lt;0.75</span>.
+        </figcaption>
+
+      </figure>
+
+
 
       </div>
     </div>
-    <!--/ Animation. -->
-
-
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Concurrent Work. -->
 
   </div>
 </section>
@@ -444,11 +605,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@article{xiong2025talkingheadbench,
+  title={TalkingHeadBench: A Multi-Modal Benchmark \& Analysis of Talking-Head DeepFake Detection},
+  author={Xiong, Xinqi and Patel, Prakrut and Fan, Qingyuan and Wadhwa, Amisha and Selvam, Sarathy and Guo, Xiao and Qi, Luchao and Liu, Xiaoming and Sengupta, Roni},
+  journal={arXiv preprint arXiv:2505.24866},
+  year={2025}
 }</code></pre>
   </div>
 </section>
@@ -456,15 +617,13 @@
 
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
+    <!-- <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
-        <i class="fas fa-file-pdf"></i>
+         href=""> <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
-        <i class="fab fa-github"></i>
+      <a class="icon-link" href="" class="external-link" disabled> <i class="fab fa-github"></i>
       </a>
-    </div>
+    </div> -->
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
@@ -472,13 +631,8 @@
             This website is licensed under a <a rel="license"
                                                 href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            This website template was adapted from the source code for <a
+              href="https://nerfies.github.io">Nerfies</a>, licensed under the same.
           </p>
         </div>
       </div>

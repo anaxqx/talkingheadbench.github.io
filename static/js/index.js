@@ -76,3 +76,38 @@ $(document).ready(function() {
     bulmaSlider.attach();
 
 })
+
+// --------------------------
+// Generator Switcher Section
+// --------------------------
+
+// Hide all video sets at load
+document.addEventListener("DOMContentLoaded", function () {
+  const sets = document.querySelectorAll('.video-set');
+  sets.forEach(s => s.style.display = 'none');
+
+  // Default: show "real"
+  const defaultSet = document.getElementById('real');
+  if (defaultSet) defaultSet.style.display = 'block';
+
+  // Buttons
+  const buttons = document.querySelectorAll('.gen-btn');
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+
+      // hide all sets
+      sets.forEach(s => s.style.display = 'none');
+
+      // remove highlight from all buttons
+      buttons.forEach(b => b.classList.remove('is-link'));
+
+      // show the selected set
+      const target = btn.dataset.target;
+      const set = document.getElementById(target);
+      if (set) set.style.display = 'block';
+
+      // highlight active button
+      btn.classList.add('is-link');
+    });
+  });
+});
